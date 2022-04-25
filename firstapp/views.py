@@ -45,3 +45,9 @@ def login(request):
             # messages.info(request,'Username OR password is incorrect')
     context={}
     return render(request,'login.html',context)
+def calorie(request):
+    os.system('start cmd')
+    return render(request,"index.html")
+# def simple_function(request):
+    
+#     return render(request,'calorie.html')
