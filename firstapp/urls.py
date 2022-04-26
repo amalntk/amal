@@ -8,6 +8,7 @@ urlpatterns = [
     path('',views.welcome,name='welcome'),
     path('welcome.html',views.welcome,name='logout'),
     path('home',views.index,name='home'),
-    path('calorie',views.calorie,name='calorie')
-    
+    path('calorie',views.calorie,name='calorie'),
+    path('apc',views.apc,name='apc')
+
 ]

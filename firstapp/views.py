@@ -51,3 +51,6 @@ def calorie(request):
 # def simple_function(request):
     
 #     return render(request,'calorie.html')
+def apc(request):
+    os.system('start cmd')
+    return render(request,"index.html")
